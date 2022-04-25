@@ -9,6 +9,7 @@ class Hero extends Fighter
 {
     private ?Weapon $weapon = null;
     private ?Shield $shield = null;
+    protected int $experience = 1000;
 
     public function getDamage(): int
     {
